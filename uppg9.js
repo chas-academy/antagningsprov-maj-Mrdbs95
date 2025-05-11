@@ -8,7 +8,15 @@ function uppg9 (){
 
     // anropa funktionen och skicka med en array som argument
 
-  
+    function sort(array) {
+        array.forEach(tal => {
+            if (tal % 2 === 0) {
+                console.log(tal + " jämt");
+            } else {
+                console.log(tal + " udda");
+            }
+        });
+    }
 }
 
 module.exports = { uppg9 };
